@@ -1,0 +1,9 @@
+/*
+Access-Control-Allow-Origin: *
+access-control-expose-headers: Content-Type
+access-control-expose-headers: Cache-Control
+access-control-expose-headers: Expires
+access-control-expose-headers: Last-Modified
+access-control-expose-headers: Content-Disposition
+access-control-expose-headers: Access-Control-Allow-Origin
+access-control-expose-headers: Cross-Domain
