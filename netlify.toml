@@ -1,0 +1,9 @@
+[[plugins]]
+package = "netlify-plugin-nimbella"
+
+[build]
+command = "cd web && npm install && npm run-script build"
+publish = "web/build"
+
+[nimbella]
+path = '/api/'

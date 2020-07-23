@@ -1,0 +1,7 @@
+.slack-env
+web/.built
+packages/ocr/imageToText/eng.traineddata
+packages/ocr/acceptImage/annotations.json
+packages/ocr/acceptImage/index.js
+web/build
+**/**/node_modules

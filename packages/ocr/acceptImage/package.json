@@ -1,0 +1,13 @@
+{
+  "name": "workflow",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx compose --js workflow.js -o index.js",
+    "viz": "npx compose --ast workflow.js | jq {\"conductor\":.} > annotations.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openwhisk-composer": "^0.12.0"
+  }
+}
